@@ -1,0 +1,36 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  See you again
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Catch you later
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  See you again
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+FATAL Port 4000 has been used. Try other port instead.
+FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1256:14)
+    at listenInCluster (net.js:1304:12)
+    at Server.listen (net.js:1392:7)
+    at /root/bwcx/node_modules/hexo-server/lib/server.js:82:12
+    at Promise._execute (/root/bwcx/node_modules/bluebird/js/release/debuggability.js:313:9)
+    at Promise._resolveFromExecutor (/root/bwcx/node_modules/bluebird/js/release/promise.js:483:18)
+    at new Promise (/root/bwcx/node_modules/bluebird/js/release/promise.js:79:10)
+    at checkPort (/root/bwcx/node_modules/hexo-server/lib/server.js:68:10)
+    at Hexo.module.exports (/root/bwcx/node_modules/hexo-server/lib/server.js:19:10)
+    at Hexo.tryCatcher (/root/bwcx/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/root/bwcx/node_modules/bluebird/js/release/method.js:15:34)
+    at Promise (/root/bwcx/node_modules/hexo/lib/hexo/index.js:193:9)
+    at Promise._execute (/root/bwcx/node_modules/bluebird/js/release/debuggability.js:313:9)
+    at Promise._resolveFromExecutor (/root/bwcx/node_modules/bluebird/js/release/promise.js:483:18)
+    at new Promise (/root/bwcx/node_modules/bluebird/js/release/promise.js:79:10)
+    at Hexo.call (/root/bwcx/node_modules/hexo/lib/hexo/index.js:189:10)
+    at /root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/lib/hexo.js:68:17
+    at tryCatcher (/root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/root/.nvm/versions/node/v11.10.1/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:694:18)
